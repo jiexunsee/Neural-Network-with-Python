@@ -32,10 +32,10 @@ class NeuralNetwork():
 			a3 = self.__sigmoid(dot(a2, self.synaptic_weights2))
 			output = self.__sigmoid(dot(a3, self.synaptic_weights3))
 
-			# calculate error
+			# calculate 'error'
 			del4 = (training_set_outputs - output)*self.__sigmoid_derivative(output)
 
-			# find errors in each layer
+			# find 'errors' in each layer
 			del3 = dot(self.synaptic_weights3, del4.T)*(self.__sigmoid_derivative(a3).T)
 			del2 = dot(self.synaptic_weights2, del3)*(self.__sigmoid_derivative(a2).T)
 
