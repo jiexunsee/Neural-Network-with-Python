@@ -5,8 +5,8 @@ This is a neural network with 3 layers (2 hidden), made using just numpy. It's a
 
 Here is a pictorial illustration:
 
-![Illustration of neural network] (https://github.com/jiexunsee/Neural-Network-with-Python/blob/master/Illustration%20of%20network.JPG?raw=true)
+![Illustration of neural network](https://github.com/jiexunsee/Neural-Network-with-Python/blob/master/Illustration%20of%20network.JPG?raw=true "Illustration")
 
 A screenshot of the code where the weights are updated after running the backpropagation adjustments.
 
-![screenshot] (https://github.com/jiexunsee/Neural-Network-with-Python/blob/master/Screen%20shot%20of%20code%20being%20run.png?raw=true)
+![screenshot](https://github.com/jiexunsee/Neural-Network-with-Python/blob/master/Screen%20shot%20of%20code%20being%20run.png?raw=true)
